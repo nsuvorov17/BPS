@@ -33,8 +33,9 @@ else:
     if d > 0:
         x1=(-b+math.sqrt(d))/(2*a)
         x2=(-b-math.sqrt(d))/(2*a)
-        print('X1:'+x1, 'X2:'+x2)
+        print('X1:'+str(x1), 'X2:'+str(x2))
+    elif d == 0:
         x=(b*-1)/(2*a)
-        print('X:', x)
+        print('X1:', x, sep='')
     else:
         print(' ')
