@@ -18,4 +18,4 @@ Victor                                               Hello Victor!
 """
 
 name=input()
-print('Hello', name,'!')
+print('Hello', name +'!')
