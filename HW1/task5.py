@@ -20,15 +20,15 @@
 #0 4 10		X1:-2.5
 
 
+
 import math
 a,b,c=map(float, input().split())
 d=b**2-4*a*c
 if a == 0 and b != 0:
     x=c/-b
     print('X:', x, sep='')
-elif a == 0 and b == 0:
-    x=c
-    print('X:', x, sep='')
+elif a == 0 and b == 0:  
+    print(' ')
 else:
     if d > 0:
         x1=(-b+math.sqrt(d))/(2*a)
