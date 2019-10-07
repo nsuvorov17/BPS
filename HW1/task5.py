@@ -23,15 +23,17 @@
 import math
 a,b,c=map(float, input().split())
 d=b**2-4*a*c
-if a == 0:
+if a == 0 and b != 0:
     x=c/-b
-    print('x:', x)
+    print('x:', x, sep='')
+elif a == 0 and b == 0:
+    x=c
+    print('x:', x, sep='')
 else:
     if d > 0:
         x1=(-b+math.sqrt(d))/(2*a)
         x2=(-b-math.sqrt(d))/(2*a)
-        print('x1:', x1, 'x2:', x2, )
-    elif d == 0:
+        print('x1:'+x1, 'x2:'+x2)
         x=(b*-1)/(2*a)
         print('x:', x)
     else:
