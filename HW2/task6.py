@@ -39,4 +39,4 @@ for i in range(int(input())):
 x, y = m, n
 while y > 0:
     x, y = y, x % y
-print(m // x, '/', n // x)
+print(m // x, '/', n // x, sep='')
