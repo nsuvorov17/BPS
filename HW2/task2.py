@@ -33,7 +33,7 @@ elif c == '-':
 elif c == '*':
     x = a * b
     print(x)
-elif c == '/':
+elif c == '/' and b != 0:
     x = a / b
     print(x)
 else:
