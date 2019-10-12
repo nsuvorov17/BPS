@@ -30,5 +30,7 @@ h,h1=map(int,input().split())
 
 if a + b + c + d + e + f + g + h == a1 + b1 + c1 + d1 + e1 + f1 + g1 + h1:
     print ("NO")
+elif a == a1 or b == b1 or c == c1 or d == d1 or e == e1 or f == f1 or g == g1 or h == h1:
+    print ("YES")
 else:
     print("YES")
