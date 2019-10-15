@@ -17,7 +17,7 @@
 
 a = int(input())
 f1, f2 = 0, 1
-while f2 < a:
+while f2 <= a:
     f = f1 + f2
     f1 = f2
     f2 = f
